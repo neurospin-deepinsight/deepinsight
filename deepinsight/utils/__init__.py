@@ -8,9 +8,5 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Common utilities.
 """
-
-# Imports
-from .info import __version__
-from brainboard import Board, summary

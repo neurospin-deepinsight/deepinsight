@@ -8,9 +8,10 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Module that privides common display tools.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from brainboard.plotting import plot_net
+from surfify.plotting import plot_trisurf
+
+__all__ = ["plot_net", "plot_trisurf"]

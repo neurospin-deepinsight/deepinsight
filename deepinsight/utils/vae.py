@@ -8,9 +8,12 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+VAE utilities.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from brainite.utils import (
+    reconstruct_traverse, add_labels, make_mosaic_img, traversals,
+    traverse_line, get_traversal_range)
+
+__all__ = ["reconstruct_traverse", "add_labels", "make_mosaic_img",
+           "traversals", "traverse_line", "get_traversal_range"]

@@ -1,0 +1,8 @@
+git+https://github.com/AGrigis/pysphinxdoc.git
+ipython
+git+https://github.com/neurospin-deepinsight/dataify.git
+git+https://github.com/neurospin-deepinsight/brainboard.git
+git+https://github.com/neurospin-deepinsight/surfify.git
+git+https://github.com/neurospin-deepinsight/brainrise.git
+git+https://github.com/neurospin-deepinsight/brainite.git
+sphinx==2.2.1

@@ -8,9 +8,12 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Common architectures.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from brainite.models import VAE
+from brainite.models import MCVAE
+from brainite.models import PMVAE
+from surfify.models import SphericalUNet
+
+__all__ = ["VAE", "MCVAE", "PMVAE", "SphericalUNet"]

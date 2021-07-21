@@ -8,9 +8,13 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Surface utilities.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from surfify.utils import (
+    interpolate, neighbors, downsample, neighbors_rec, icosahedron,
+    number_of_ico_vertices, get_rectangular_projection)
+
+__all__ = ["interpolate", "neighbors", "downsample", "neighbors_rec",
+           "icosahedron", "number_of_ico_vertices",
+           "get_rectangular_projection"]

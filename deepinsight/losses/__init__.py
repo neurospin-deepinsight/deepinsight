@@ -8,9 +8,13 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Common losses.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from brainite.losses import BetaBLoss
+from brainite.losses import BetaHLoss
+from brainite.losses import BtcvaeLoss
+from brainite.losses import MCVAELoss
+from brainite.losses import PMVAELoss
+
+__all__ = ["BetaBLoss", "BetaHLoss", "BtcvaeLoss", "MCVAELoss", "PMVAELoss"]

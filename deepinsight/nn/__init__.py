@@ -8,9 +8,13 @@
 ##########################################################################
 
 """
-Helper module for deep learning tools integration in PyTorch.
+Common modules.
 """
 
-# Imports
-from .info import __version__
-from brainboard import Board, summary
+from surfify.nn import (
+    IcoRePaConv, IcoDiNeConv, IcoPool, IcoUpConv, IcoGenericUpConv,
+    IcoUpSample, IcoFixIndexUpSample, IcoMaxIndexUpSample)
+
+__all__ = ["IcoRePaConv", "IcoDiNeConv", "IcoPool", "IcoUpConv",
+           "IcoGenericUpConv", "IcoUpSample", "IcoFixIndexUpSample",
+           "IcoMaxIndexUpSample"]

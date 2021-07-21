@@ -36,7 +36,8 @@ SUMMARY = """
 
     * specific modules.
     * common models.
-    * plotting utilisties.
+    * plotting utilities.
+    * data augmentation methods.
 """
 long_description = (
     "Python module for deep learning tools integration in PyTorch..\n")
@@ -50,6 +51,12 @@ DESCRIPTION = description
 LONG_DESCRIPTION = long_description
 EXTRANAME = "NeuroSpin webPage"
 EXTRAURL = ""
+LINKS = {
+    "brainite": "https://github.com/neurospin-deepinsight/deepinsight",
+    "brainrise": "https://github.com/neurospin-deepinsight/brainrise",
+    "brainboard": "https://github.com/neurospin-deepinsight/brainboard",
+    "dataify": "https://github.com/neurospin-deepinsight/dataify",
+    "surfify": "https://github.com/neurospin-deepinsight/surfify"}
 URL = "https://github.com/neurospin-deepinsight/deepinsight"
 DOWNLOAD_URL = "https://github.com/neurospin-deepinsight/deepinsight"
 LICENSE = "CeCILL-B"
@@ -63,5 +70,9 @@ ISRELEASE = True
 VERSION = __version__
 PROVIDES = ["deepinsight"]
 REQUIRES = [
+    "brainboard >= 0.0.0",
+    "dataify >= 0.0.0",
     "surfify >= 0.0.0",
+    "brainrise >= 0.0.0",
+    "brainite >= 0.0.0"
 ]
