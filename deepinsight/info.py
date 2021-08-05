@@ -50,7 +50,9 @@ MAINTAINER_EMAIL = "antoine.grigis@cea.fr"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
 EXTRANAME = "NeuroSpin webPage"
-EXTRAURL = ""
+EXTRAURL = (
+    "https://joliot.cea.fr/drf/joliot/Pages/Entites_de_recherche/"
+    "NeuroSpin.aspx")
 LINKS = {
     "brainite": "https://github.com/neurospin-deepinsight/deepinsight",
     "brainrise": "https://github.com/neurospin-deepinsight/brainrise",

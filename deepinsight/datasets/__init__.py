@@ -20,8 +20,10 @@ from dataify import IMPACDataset
 from dataify import SingleCellRNASeqDataset
 from dataify import MovingMNISTDataset
 from surfify.datasets import make_classification, ClassificationDataset
+from brainrise.datasets import MRIToyDataset
+
 
 __all__ = ["BraTSDataset", "DSpritesDataset", "EchocardiographyDataset",
            "SinOscillatorDataset", "HCPAnatDataset", "IMPACDataset",
            "SingleCellRNASeqDataset", "MovingMNISTDataset",
-           "make_classification", "ClassificationDataset"]
+           "make_classification", "ClassificationDataset", "MRIToyDataset"]
