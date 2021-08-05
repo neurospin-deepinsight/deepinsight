@@ -1,5 +1,5 @@
 ﻿Use Cases
----------
+----------
 
 You can scroll the gallery of each embedded package:
 
